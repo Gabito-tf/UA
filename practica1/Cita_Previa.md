@@ -13,7 +13,7 @@
 
     En este caso se devuelve un único estado 200 (Éxito,OK)
     
-**- Qué DNS tiene el servidor**
+**- Qué DNS tiene el servidor.**
 
     https://www.gobiernodecanarias.org
     
@@ -30,6 +30,8 @@
     La página acepta inglés e inglés estadounidense con una importancia del 50% para cada una
     
 **- Alguna línea de código JavaScript**
+
+    No contiene ficheros de JavaScript.
 
 **- Alguna línea de código CSS que se aplique.**
 
