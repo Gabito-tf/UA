@@ -2,12 +2,15 @@
 ## [ISTAC](http://www.gobiernodecanarias.org/istac/api/)
 
 - Qué peticiones desencadena la consulta.
+  
   las peticiones que desencadena la pagina web es GET, los códigos retornos que devuelven son 200 y 302.
 
 - ¿Qué tipo de petición estás realizando?
-  la petición que está realizando es una petición HTTP de tipo GET.   
+ 
+ la petición que está realizando es una petición HTTP de tipo GET.   
 
 - Qué código de estatus devuelve.
+  
   Los códigos de estado que devuelven varían, siendo 200 (Éxito, OK), 302 (Redireccion, No modificado).
 
 - Qué DNS tiene el servidor
@@ -19,6 +22,7 @@
   93.188.137.123
 
 - ¿La página tiene alguna cookie?, ¿Cuáles?.
+  
   Por la configuración de los navegadores,aparenta no tener cookies.
 
 - ¿Qué idioma acepta?.
