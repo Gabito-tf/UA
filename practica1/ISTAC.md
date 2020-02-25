@@ -1,7 +1,7 @@
 # Introducción al Protocolo HTTP
 ## [ISTAC](http://www.gobiernodecanarias.org/istac/api/)
 
-- Qué peticiones desencadena la consulta.
+*  Qué peticiones desencadena la consulta.
 
 las peticiones que desencadena la pagina web es GET, 
 los códigos retornos que devuelven son 200 y 302.
