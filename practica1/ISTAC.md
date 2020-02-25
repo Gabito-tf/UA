@@ -31,7 +31,7 @@
 
 **- Alguna línea de código JavaScript**
 
-  No contiene ficheros de JavaScript
+  No contiene ficheros de JavaScript.
 
 **- Alguna línea de código CSS que se aplique.**
 
