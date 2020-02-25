@@ -35,11 +35,17 @@
 
 **- Alguna línea de código CSS que se aplique.**
 
-.section{font-family:"Droid Sans",sans-serif;font-size:15px;color:#000;max-width:960px;margin:0 auto;padding:5px 0 0 0;clear:both}
-.section .izq{float:left}
-.section .der{float:right}
+  `.section​ {}
+    font-family​ : "Droid Sans", sans-serif;
+    font-size​ : 15px;
+    color​ : #000;
+    max-width​ : 960px;
+    margin​ : 0 auto;
+    padding​ : 5px 0 0 0;
+    clear​ : both;`
+
 
 **- Alguna línea de código HTML que se aplique.**
 
-<div class="der">
-<img src="/istac/resources/imagenes/logo_edatos.jpg" alt="">	
+ `<div class="der">
+  <img src="/istac/resources/imagenes/logo_edatos.jpg" alt=""> `	
