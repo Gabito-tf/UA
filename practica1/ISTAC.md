@@ -1,5 +1,5 @@
-## Introducción al Protocolo HTTP
-# ISTAC
+# Introducción al Protocolo HTTP
+## ISTAC
 Practica 1 - Introducción al protocolo HTTP
 Página Web: ISTAC
 
