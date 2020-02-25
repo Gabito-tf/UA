@@ -1,11 +1,10 @@
 # Introducción al Protocolo HTTP
 ## [ISTAC](http://www.gobiernodecanarias.org/istac/api/)
 
-Practica 1 - Introducción al protocolo HTTP
-Página Web: ISTAC
-
 - Qué peticiones desencadena la consulta.
-las peticiones que desencadena la pagina web es GET, los códigos retornos que devuelven son 200 y 302.
+
+las peticiones que desencadena la pagina web es GET, 
+los códigos retornos que devuelven son 200 y 302.
 
 - ¿Qué tipo de petición estás realizando?
 la petición que está realizando es una petición HTTP de tipo GET.   
