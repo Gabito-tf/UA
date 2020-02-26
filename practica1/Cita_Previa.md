@@ -23,7 +23,7 @@
     
 **- ¿La página tiene alguna cookie?, ¿Cuáles?.**
 
-   Sí, http://www3.gobiernodecanarias.org
+   No contiene cookies
     
 **- ¿Qué idioma acepta?.**
 
