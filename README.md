@@ -8,6 +8,8 @@ Integrantes del grupo número 17 de la asignatura Usabilidad y Accesibilidad.
 
 LINKS
 
+  Seminario DCU:https://github.com/Gabito-tf/UA/tree/master/Seminario%20DCU
+  
   Práctica 1(Introducción al protocolo HTTP): https://github.com/Gabito-tf/UA/tree/master/practica1
   
   Práctica 2(Uso de la web por personas con disfuncionalidad): https://github.com/Gabito-tf/UA/tree/master/practica2
