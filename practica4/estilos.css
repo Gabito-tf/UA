@@ -1,0 +1,131 @@
+body {
+    width: 770px;
+}
+
+#navigation {
+    margin: auto;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: lightgray;
+    border: 5px solid #8A1491;
+}
+
+.nav li a {
+    font-family: arial;
+    font-size: 1.5em;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav li a:hover {
+    background-color: #8A1491;
+}
+
+#img-cabecera {
+    background-image: url(./imagenes/cabecera.jpg);
+}
+
+#img-cabecera > img {
+    width: 770px;
+    height:250px;
+}
+
+#container {
+    display: flex;
+    font-family: Arial;
+    font-size: 1em;
+    color: black;
+}
+
+#left-side {
+    width: 200px;
+    background-color:lightgray;
+}
+
+#center-side {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    background-color:lightgray;
+}
+
+#center-side a {
+    color: black;
+    text-decoration: none;
+
+}
+
+#center-side a:hover {
+    color: #8A1491;
+}
+
+#right-side {
+    width: 200px;
+    background-color:lightgray
+}
+
+#left-side, #center-side, #right-side {
+    border: 2px solid #8A1491;
+    height: 300px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#left-side ul {
+    font-family: Arial;
+    font-size: 1.5em;
+    color: black;
+}
+
+#left-side li {
+    margin-bottom: 0.7em;
+    padding: 0.3em;
+}
+
+#left-side a:visited {
+    font-family: Arial;
+    color: blue;
+}
+
+#left-side a:visited:hover {
+    color: red;
+}
+
+#right-side table {
+    font-family: Arial;
+    font-size: 1.5em;
+    color: black;
+}
+
+#right-side tr {
+    padding-bottom: 1.5em;
+}
+
+#right-side a:visited {
+    font-family: Arial;
+    color: blue;
+}
+
+#right-side a:visited:hover {
+    color: red;
+}
+
+#pie-pagina {
+    border: 5px solid #8A1491;
+    margin-top: 25px;
+    background-color: lightgray;
+}
+
+#pie-pagina p {
+    font-size: 0.8em;
+    text-align: center;
+    font-family: Arial;
+
+}
