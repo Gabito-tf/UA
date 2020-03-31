@@ -1,4 +1,4 @@
 ## Tabla de Definiciones 
-![Screenshot](Captura.png) 
+![Screenshot](Captura.PNG) 
 
 ## Árbol Dom
