@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <script type="text/javascript">
+      window.onload = function() {
+        var info = document.getElementById("informacion");
+
+        // Numero de parrafos de la pagina
+        var parrafo = document.getElementsByTagName("p");
+        info.innerHTML = "Numero de parrafos = "+parrafo.length;
+        
+        // Numero de enlaces de la pagina
+        var enlaces = document.getElementsByTagName("a");
+        info.innerHTML = info.innerHTML + "</br> Numero de enlaces = " + enlaces.length;
+
+        // Numero de enlaces de la pagina
+        var encabezado = document.getElementsByTagName("h1");
+        info.innerHTML = info.innerHTML + "</br> Numero de encabezados = " + encabezado.length;
+      }
+      </script>
+</head>
+  <body>
+      <div id="informacion" style="border:thin solid silver; padding:.5em"></div>
+  </body>
+</html>
