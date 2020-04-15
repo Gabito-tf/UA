@@ -36,4 +36,4 @@ LINKS
   
   Práctica 7(Introducción a Ajax):https://github.com/Gabito-tf/UA/tree/master/practica7
   
-  -- https://gabito-tf.github.io/7/
+  -- https://gabito-tf.github.io/7/index.html
