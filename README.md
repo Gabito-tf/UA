@@ -24,6 +24,12 @@ LINKS
  
   Práctica 5(Introducción a Materialize):https://github.com/Gabito-tf/UA/tree/master/practica5
   
+  -- https://gabito-tf.github.io/5/
+  
   Práctica 6(Introducción a JavaScript):https://github.com/Gabito-tf/UA/tree/master/practica6
   
+  -- https://gabito-tf.github.io/6/
+  
   Práctica 7(Introducción a Ajax):https://github.com/Gabito-tf/UA/tree/master/practica7
+  
+  -- https://gabito-tf.github.io/7/
