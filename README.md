@@ -25,6 +25,10 @@ LINKS
   Práctica 5(Introducción a Materialize):https://github.com/Gabito-tf/UA/tree/master/practica5
   
   -- https://gabito-tf.github.io/5/
+      
+      -- Conversor: https://gabito-tf.github.io/6/conversor/
+      -- Sueldo: https://gabito-tf.github.io/6/sueldo_edad/calcular.html
+      -- Contador: https://gabito-tf.github.io/6/contador/script5.html
   
   Práctica 6(Introducción a JavaScript):https://github.com/Gabito-tf/UA/tree/master/practica6
   
