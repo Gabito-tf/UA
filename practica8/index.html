@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Banco de tiempo coches</title>
+</head>
+<body>
+    <h1>Base de datos para compartir coche</h1>
+    <p id="infoFire"> </p>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB4cHhQG-vvCr2JmyastFL4tpYta_fgZw0",
+    authDomain: "bdt-uya.firebaseapp.com",
+    databaseURL: "https://bdt-uya.firebaseio.com",
+    projectId: "bdt-uya",
+    storageBucket: "bdt-uya.appspot.com",
+    messagingSenderId: "925283153597",
+    appId: "1:925283153597:web:e381bec44d055109b529d4",
+    measurementId: "G-RZ8X17021Y"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+      //Referencia a la base de datos
+      var database = firebase.database();
+      var referencia = database.ref('usuario1');
+      //Escribir un documento
+      referencia.set({
+            alu: 'alu0101098340',
+            Coche: 'Seat panda',
+            Plazas: '5'
+        });
+var referencia = database.ref('usuario2');
+//Escribir un documento
+referencia.set({
+      alu: 'alu0101098341',
+      Coche: 'Seat ibiza',
+      Plazas: '5'
+  });
+var referencia = database.ref('usuario3');
+//Escribir un documento
+referencia.set({
+      alu: 'alu0101098342',
+      Coche: 'Seat 500',
+      Plazas: '4'
+  });
+      //Consultar datos, se muestran todos los datos en la raíz
+      referencia = database.ref('/');
+      referencia.once('value', snapshot => {
+        console.log(snapshot.val());
+      });
+      //Consultar datos, se muestra la actividad del usuario1
+      referencia = database.ref('/usuario1');
+      referencia.on('value', snapshot => {
+        console.log('_______________________');
+        console.log(snapshot.val().actividad);
+      });
+      //Consultar datos, se accede a la actividad del usuario2
+      referencia = database.ref('/usuario2/actividad');
+      referencia.on('value', snapshot => {
+        console.log('_______________________');
+        console.log(snapshot.val());
+      });
+    </script>
+
+</body>
+</html>
