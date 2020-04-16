@@ -1,6 +1,6 @@
 $("#boton").click(function getDatos(){
     $.ajax({
-        url: 'https://jsonplaceholder.typicode.com/comments?postId=1',
+        url: 'https://jsonplaceholder.typicode.com/comments?postId=2',  //Introduzca la id que quiera observar en la igualdad, la 1 que se pide en la práctica no funciona
         type: 'GET',
         async: true,
 
