@@ -1,6 +1,6 @@
 #---Informe FireBase ---
 
-![firebase][https://raw.githubusercontent.com/Gabito-tf/UA/master/practica8/informe%20fotos/fire.png]
+![firebase][img0]
 
 ### Registro
 
@@ -39,3 +39,4 @@ Para probar el funcionamiento correcto de nuestra base de datos podemos añadir 
 Por tanto así se vería en nuestra consola: 
  
 
+[img0]: https://raw.githubusercontent.com/Gabito-tf/UA/master/practica8/informe%20fotos/fire.png
