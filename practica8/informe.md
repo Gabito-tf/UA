@@ -1,14 +1,13 @@
----Informe FireBase ---
+#---Informe FireBase ---
 
-
-
---  
+[firebase][https://raw.githubusercontent.com/Gabito-tf/UA/master/practica8/informe%20fotos/fire.png]
 
 ### Registro
 
 Firebase se usa en línea, es decir, no hay que descargar nada en nuestra web, simplemente incrustrar el código que ellos nos proporcionan ellos.
 Una vez registrado y dentro del proyecto le damos click a la ruedita de ajustes y entramos en la pestaña de “Configuracion del proyecto”, una vez dentro bajamos hasta encontrar el código que conecta Firebase con nuestra web.
- 
+
+[]
 
 Base de datos
 
