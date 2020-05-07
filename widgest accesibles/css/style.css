@@ -1,0 +1,17 @@
+/* Custom Stylesheet */
+
+.breadcrumb::before {
+  visibility: hidden;
+}
+
+.carousel-buttons {
+  margin-top: 10px;
+}
+
+.carousel-item:not(.active) {
+  visibility: hidden !important;
+}
+
+#carousel {
+  height: 400px !important;
+}
