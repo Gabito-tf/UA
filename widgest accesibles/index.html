@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Widgets Accesibles</title>
+
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <!-- Scripts -->
+  <script defer src="js/materialize.min.js"></script>
+  <script defer src="js/init.js"></script>
+</head>
+
+<body>
+
+  <h1>Grupo 17</h1>
+
+  <h2>Acordeón</h2>
+
+  <ul class="collapsible" aria-label="acordeón con 3 elementos desplegables" aria-live="polite" tabindex="0">
+    <li>
+      <div class="collapsible-header" aria-controls="first-content" tabindex="0"><i class="material-icons"
+          aria-hidden="true">filter_drama</i>Primero</div>
+      <div id="first-content" class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header" aria-controls="second-content" tabindex="0"><i class="material-icons"
+          aria-hidden="true">place</i>Segundo</div>
+      <div id="second-content" class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header" aria-controls="third-content" tabindex="0"><i class="material-icons"
+          aria-hidden="true">whatshot</i>Tercero</div>
+      <div id="third-content" class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+
+  <h2>BreadCrumbs</h2>
+
+  <nav aria-label="migas de pan con 3 elementos">
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a href="#!" class="breadcrumb">Primero</a>
+        <a href="#!" class="breadcrumb">Segundo</a>
+        <a href="#!" class="breadcrumb" aria-current="location">Tercero</a>
+      </div>
+    </div>
+  </nav>
+
+  <h2>Carrousel</h2>
+
+  <div id="carousel" class="carousel carousel-slider center" aria-roledescription="carousel" role="region"
+    aria-live="polite" aria-label="carrousel con 4 diapositivas" tabindex="0">
+    <div class="carousel-item red white-text" href="#one!" aria-label="panel 1 de 4" aria-roledescription="slide" role="group">
+      <h2>Primer Panel</h2>
+      <p class="white-text">Este es tu primer panel</p>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!" aria-label="panel 2 de 4" aria-roledescription="slide" role="group">
+      <h2>Segundo Panel</h2>
+      <p class="white-text">Este es tu segundo panel</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!" aria-label="panel 3 de 4" aria-roledescription="slide" role="group">
+      <h2>Tercer Panel</h2>
+      <p class="white-text">Este es tu tercer panel</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!" aria-label="panel 4 de 4" aria-roledescription="slide" role="group">
+      <h2>Cuarto Panel</h2>
+      <p class="white-text">Este es tu cuarto panel</p>
+    </div>
+    <div class="carousel-buttons carousel-fixed-item center">
+      <button class="btn white black-text waves-effect prev" aria-controls="carousel" aria-label="diapositiva anterior">
+        &lt; Anterior</button>
+      <button class="btn white black-text waves-effect next" aria-controls="carousel"
+        aria-label="diapositiva siguiente">Siguiente &gt;</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
