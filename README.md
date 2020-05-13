@@ -42,6 +42,6 @@ Práctica 8(Introducción a Firebase):https://github.com/Gabito-tf/UA/tree/maste
   
   -- https://gabito-tf.github.io/8/index.html
   
-  Práctica 9(WAI-ARIA):
+  Práctica 9(WAI-ARIA):https://github.com/Gabito-tf/UA/tree/master/practica9
 
 Práctica Widgets accesibles:https://github.com/Gabito-tf/UA/tree/master/widgest%20accesibles
