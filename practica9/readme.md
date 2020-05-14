@@ -2,7 +2,7 @@
 
 
 
-![firebase][img0]
+![P1Despues][img2]
 
 
-[img0]: https://raw.githubusercontent.com/Gabito-tf/UA/master/practica8/informe%20fotos/fire.png
+[img2]: https://raw.githubusercontent.com/Gabito-tf/UA/master/practica9/gif2.gif
