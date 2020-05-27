@@ -48,5 +48,5 @@ Práctica Widgets accesibles:https://github.com/Gabito-tf/UA/tree/master/widgest
 
 Práctica Diseño Responsive:https://github.com/Gabito-tf/UA/tree/master/dise%C3%B1o_responsive
 
-  -- https://gabito-tf.github.io/9/sin-diseño-responsive/index.html
+  -- https://gabito-tf.github.io/9/sin-diseño-responsive/index.html 
   -- https://gabito-tf.github.io/9/con-diseño-responsive/index.html
