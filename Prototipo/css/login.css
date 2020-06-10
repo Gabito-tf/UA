@@ -1,0 +1,34 @@
+body,
+html{
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	position: relative;  
+}
+
+.fondo{
+    background-image: url(https://diariodeavisos.elespanol.com/wp-content/uploads/2019/12/pasarela-rotonda-padre-anchieta.jpg);
+    background-size: cover;
+}
+.login{
+    margin-top: 100px;
+}
+
+.login .card{
+    background: rgba(0,0,0,0.6);
+}
+
+.login label{
+    font-size: 16;
+    color: #CCC;
+}
+
+.login input{
+    font-size: 27;
+    color: #CCC;
+}
+@media (max-width: 400px){
+	.login{
+		width: 90%;
+	}
+}

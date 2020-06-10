@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-auth.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Iniciar Sesión</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/login.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+<nav class="deep-purple" role="navigation">
+  <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img
+        src="https://i.ibb.co/C75mMgc/Logo-BDT.jpg"  alt="Logo"∫ width="120" height="60"></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="equipo.html">Sobre Nosotros</a></li>
+      <li><a href="formulario.html">Contacto</a></li>
+      <li><a href="login.html">Mi Cuenta</a></li>
+    </ul>
+
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="equipo.html">Sobre Nosotros</a></li>
+      <li><a href="formulario.html">Contacto</a></li>
+      <li><a href="login.html">Mi Cuenta</a></li>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+
+<body class="fondo">
+
+  <div class="row login">
+
+    <div class="col s12 l4 offset-l4" id="login">
+      <div class="card">
+
+        <div class="card-action deep-purple white-text center">
+
+          <h3 tabindex="0">Inicia Sesion</h3>
+
+        </div>
+
+        <form class="loginForm" name="loginForm">
+
+          <div class="card-content">
+
+            <div class="form-field">
+
+              <label for="email" tabindex="0">Alu</label>
+              <input type="email" id="email" requiried>
+
+            </div><br>
+
+            <div class="form-field">
+
+              <label for="password" tabindex="0">contraseña</label>
+              <input type="password" id="password" requiried>
+
+            </div><br>
+
+            <div class="form-radioContainer center-align">
+
+              <label tabindex="0">
+                <input name="isLoginOrSignup" type="radio" value="isLogin" checked />
+                <span>Iniciar Sesión</span>
+              </label>
+
+              <label tabindex="0">
+                <input name="isLoginOrSignup" type="radio" value="isSignup"  />
+                <span >Registrarse</span>
+              </label>
+
+            </div><br>
+
+            <div class="form-field center-align" tabindex="0">
+
+              <button id="signIn"  class="btn-large deep-purple">Entrar</button>
+
+            </div><br>
+
+        </form>
+
+
+
+      </div>
+    </div>
+  </div>
+  <div class="row center-align">
+    <div class="card-content">
+      <div class="card white-text">
+        <div id="hiddenPrivateInfo">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>
